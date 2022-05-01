@@ -1,5 +1,5 @@
 <template>
-  <div class="clac_form">
+  <div class="calc_form">
 		<h1>계산기</h1>
 		<div class="form">
 			<input type="text" v-model="getStr" />
@@ -41,7 +41,7 @@ export default {
 		padding: 0;
 		box-sizing: border-box;
 	}
-	.clac_form {
+	.calc_form {
 		width: 287px;
 		border: 1px solid #333;
 		background-color: #EEE;
