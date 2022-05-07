@@ -12,7 +12,7 @@
 			<table>
 					<tr>
 							<th>제목</th>
-							<th>이미지</th>
+							<th>이미지 (이미지를 클릭하여 인물의 정보를 확인)</th>
 					</tr>
 					<tr v-for="(item, index) in list" :key="index">
 							<td>

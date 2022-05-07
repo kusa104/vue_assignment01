@@ -6,7 +6,7 @@
           Vue Assignment
         </v-list-item-title>
         <v-list-item-subtitle>
-          첫번째 과제
+          첫번째 과제 + 두번째
         </v-list-item-subtitle>
       </v-list-item-content>
     </v-list-item>
