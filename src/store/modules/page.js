@@ -1,5 +1,6 @@
 import CalcView from '@/views/CalcView.vue'
 import InfoView from '@/views/InfoView.vue'
+import AxiosView from '@/views/AxiosView.vue'
 
 export default {
   namespaced : true,
@@ -16,7 +17,7 @@ export default {
         },
         component : CalcView
       },
-      about : {
+      info : {
         path: `/info`,
         name: `Infomation`,
         meta: {
@@ -24,6 +25,15 @@ export default {
           icon: `mdi-forum`
         },
         component : InfoView
+      },
+      axios : {
+        path: `/axios`,
+        name: `axios`,
+        meta: {
+          title: `axios`,
+          icon: `mdi-forum`
+        },
+        component : AxiosView
       }
     },
     visible : {
